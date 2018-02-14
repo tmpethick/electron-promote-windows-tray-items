@@ -4,7 +4,7 @@
   "description": "Ensure Windows tray items created by an Electron app show up in the toolbar, not the customization area.",
   "main": "src/index.js",
   "dependencies": {
-    "electron-edge": "^5.0.1-pre"
+    "electron-edge-js": "^8.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

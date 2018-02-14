@@ -2,7 +2,7 @@ var IS_WIN = process.platform === 'win32';
 
 var app = require('electron').app;
 // `electron-edge` will fail to load on non-Windows platforms.
-var edge = IS_WIN ? require('electron-edge') : null;
+var edge = IS_WIN ? require('electron-edge-js') : null;
 var path = require('path');
 
 /**
